@@ -5,11 +5,11 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header>
-      <Link href="/">
+      {/* <Link href="/">
         <Image src={Logo} alt="" width={30} height={30} />
-      </Link>
+      </Link> */}
 
-      helloooo
+      {/* helloooo */}
     </header>
   );
 };
