@@ -24,4 +24,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  transition: all 2.25s linear;
+}
+button {
+  @apply duration-300 transition-all ease-in-out;
+}
+a {
+  @apply hover:underline;
+}
+
+@layer components {
+  .m-horizontal {
+    @apply mx-auto w-[90%] max-w-[1240px];
+  }
 }

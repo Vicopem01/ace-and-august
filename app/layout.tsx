@@ -16,11 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} relative bg-cover min-h-screen`}>
-        <div className="bg-[linear-gradient(180deg,#00000054,#00000054),url('/img/brand/aa-wallpaper.png')] absolute inset-0 bg-cover bg-center"></div>
-
-        {/* <div className="absolute inset-0 bg-white opacity-90"></div> */}
-        <div>{children}</div>
+      <body
+        className={`${inter.className} min-w-screen relative min-h-screen overflow-x-hidden`}
+      >
+        {children}
       </body>
     </html>
   );
